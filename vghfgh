@@ -1,0 +1,75 @@
+
+
+          <div id="card-container">
+            <div id="card"></div>
+            <div id="card"></div>
+            <div id="card">
+              <div id="card-img">
+                <img src="https://cdn.dribbble.com/userupload/17266793/file/original-acdb6337f839133eacd2a3a3b7bb85a8.png?format=webp&resize=400x300&vertical=center" alt="" />
+              </div>
+          </div>
+
+
+          <div id="card-container">
+            <div id="card"></div>
+      
+          </div>
+
+
+
+
+          #page3 .elem #card-container{
+            height: 100%;
+            width: 100%;
+            /* background-color: aqua; */
+            position: relative;
+            margin: 2vw 6vw;
+            transition: all ease 0.2s;
+          }
+          
+          #card{
+            height: 100%;
+            position:absolute;
+            width: 100%;
+            border-radius: 10px;
+            background: #000000;
+            box-shadow: 6px 6px 10px rgba(0, 0, 0, 0.1);
+            overflow: hidden;
+            border: 2px solid whitesmoke;
+          }
+          
+          #card:nth-child(1){
+            background: #ECDDFB;
+          top: 5px;
+          right: 5px;
+          transition: all ease 0.4s;
+          }
+          
+          #page3 #card-container:hover #card:nth-child(1){
+          transform: translate(4px,-4px);
+          }
+          
+          #card:nth-child(2){
+            background: #F7FAEF;
+            top: 10px;
+            right: 10px;
+            transition: all ease 0.4s;
+            }
+          
+            #page3 #card-container:hover #card:nth-child(2){
+            transform: translate(2px,-2px);
+            }
+            #card:nth-child(3){
+              background: #6fa499;;
+              top: 15px;
+              right: 15px;
+              }
+          
+           #card-img img{
+            height: 100%;
+            width: 100%;
+            object-fit: cover;
+           }
+          
+          
+
